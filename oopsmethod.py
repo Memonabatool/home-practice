@@ -31,20 +31,42 @@
 #ab.getStu()
 
 # polymarphizam----------
-class Car:
+#class Car:
     
-        def __init__ (self,name,model):
-            self.name = name
-            self.model = model
-        def fun(self):
-            print(f"{self.name}:{self.model}")
-class Bus:
-        def __init__ (self,name):
-            self.name = name
-        def fun(self):
-            print(f"{self.name}")
-ab= Car("kia",2022)
-ac=Bus("daewo")
-ab.fun()
-ac.fun()
+        #def __init__ (self,name,model):
+            #self.name = name
+            #self.model = model
+        #def fun(self):
+            #print(f"{self.name}:{self.model}")
+#class Bus:
+        #def __init__ (self,name):
+            #self.name = name
+        #def fun(self):
+            #print(f"{self.name}")
+#ab= Car("kia",2022)
+#ac=Bus("daewo")
+#ab.fun()
+#ac.fun()
         
+class Animal:
+       #pass
+    def __init__ (self,name):
+         self.name = name
+    def Sound(self):
+         print(f"hello{self.name} your sound is nothing")
+class Cat(Animal):
+    def __init__ (self,name):
+         self.name = name
+    def Sound(self):
+         print(f"hello{self.name} your sound is meauo")
+class Dog(Animal):
+    def __init__(self,name):
+         self.name = name
+    def Sound(self):
+         print(f"{self.name} your sound is whaao")
+ab =Cat("cat")
+ac =Dog("dog")
+ad =Animal("animal")
+ab.Sound()
+ac.Sound()
+ad.Sound()
