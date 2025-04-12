@@ -1,3 +1,4 @@
+# oops metod in python:
 #class Student:
     #pass
     #def setStuDetails(self,name,age,subject,education,marks,grade):
